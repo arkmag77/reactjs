@@ -1,0 +1,67 @@
+body {
+    background-color: #213b50;    
+}
+
+.SignUp {
+    /* margin-top: 50px;
+    text-align: center;
+    padding: 0 30%; */
+    width: 50%;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 1.75em;
+    color: #fff;
+}
+
+
+fieldset {
+    text-align: center;
+    border-width: 0;
+    /* width: 50%; */
+}
+
+input {
+    background-color: #2b4a64;
+    color: #ffff;
+    line-height: 2em;
+    font-size: 20px;
+    width: 50%;
+    margin-bottom: 10px; 
+    outline: 0;
+    border: 0;
+    padding: 5px;
+}
+
+
+.SignUp span {
+    display: block;
+    color: red;
+}
+
+button {
+    background-color: skyblue;;
+    color: #ffff;
+    width: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 0;
+} 
+
+button:hover{
+    background-color: lightblue;
+}
+
+
